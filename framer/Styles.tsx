@@ -1,0 +1,120 @@
+import * as React from "react"
+export const styles = {
+    resultStyle: {
+        display: "flex",
+        justifyContent: "space-around",
+        padding: "10px",
+        backgroundColor: "#ffdddd",
+        borderRadius: "10px",
+        margin: "10px 0",
+    },
+    containerStyle: {
+        padding: 20,
+        width: "100%",
+        display: "flex",
+        flexDirection: "column",
+        gap: 10,
+        backgroundColor: "#803636",
+        borderRadius: 10,
+    },
+    roundsContainerStyle: {
+        display: "flex",
+        justifyContent: "space-around",
+        alignItems: "center",
+        backgroundColor: "#BF3737",
+        color: "white",
+        padding: "10px 0",
+        marginBottom: 20,
+        borderRadius: 5,
+    },
+    buttonStyle: {
+        width: 50,
+        height: 50,
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        cursor: "pointer",
+        backgroundColor: "midnightblue",
+        color: "white",
+        fontSize: 20,
+        border: "1px solid #ccc",
+        borderRadius: 5,
+    },
+    scoresContainerStyle: {
+        display: "flex",
+        justifyContent: "space-between",
+        gap: 20,
+    },
+    scoreColumnStyle: {
+        display: "flex",
+        flexDirection: "column",
+        gap: 5,
+        flex: 1,
+    },
+    scoreBoxStyle: {
+        width: "100%",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        backgroundColor: "#BF3737",
+        color: "white",
+        padding: "5px 10px",
+        borderRadius: 5,
+    },
+    nameInputContainer: {
+        display: "flex",
+        justifyContent: "space-between",
+        marginBottom: 20,
+    },
+    inputContainer: {
+        display: "flex",
+        flexDirection: "column",
+    },
+    label: {
+        marginBottom: 5,
+        color: "white",
+    },
+    input: {
+        padding: 8,
+        borderRadius: 5,
+        border: "1px solid #ccc",
+    },
+    fighterResult: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+    },
+    fighterName: {
+        fontSize: "1.2em",
+        fontWeight: "bold",
+        marginBottom: 5,
+    },
+    scoreTotal: {
+        fontSize: "1.5em",
+        color: "#BF3737",
+    },
+    winnerContainer: {
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+    },
+    winnerLabel: {
+        fontSize: "1em",
+        color: "#666",
+    },
+    winnerName: {
+        fontSize: "1.3em",
+        fontWeight: "bold",
+        color: "#BF3737",
+    },
+}
+/*}{ resultStyle: {
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "15px",
+        backgroundColor: "#f0f0f0",
+        borderRadius: "10px",
+        boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+    
+    },*/
